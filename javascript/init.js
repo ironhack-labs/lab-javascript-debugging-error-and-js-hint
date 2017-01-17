@@ -36,7 +36,7 @@ function init(){
 
   result = sum + subs + mult + div;
 
-  console.lg(result);
+  console.log(result);
 }
 
 init();
