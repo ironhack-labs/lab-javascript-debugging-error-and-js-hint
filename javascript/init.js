@@ -34,7 +34,7 @@ function init(){
   var mult = make_calc(2, 3, "multiply")
   var div = make_calc(2, 3, "divide")
 
-  result = sum + subs + mult + div;
+  result = sum;
 
   console.log(result);
 }
