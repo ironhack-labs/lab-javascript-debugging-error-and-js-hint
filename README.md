@@ -1,20 +1,18 @@
-![Ironhack Logo](https://i.imgur.com/1QgrNNw.png)
+![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
 
 # JS | Debugging, error handling and JS Hint
 
-This repository holds a small project to practice debugging and error handling.
+This repository holds a small exercise to practice debugging and error handling.
 
 ## Learning Goals
 
 After this lesson, you should be able to:
 
-- Understand what *Debugging* is
+- Understand what _debugging_ is
 - Correctly use the `console` object
-- Use a debugging tool to handle the errors
-- Use break points, `watch` and `call stack`
-- Access variables and their behavior during execution time
-- Use execution time controls
+- Pause the execution and inspect the code using breakpoints
+- Access and inspect variables during the execution time
 - Identify the most common errors in JavaScript
-- Understand what **JS Hint** is and how it works
+- Handle errors using the `try` `catch` block
 
 Good luck!
