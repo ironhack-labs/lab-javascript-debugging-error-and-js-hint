@@ -8,7 +8,7 @@ function multiply(n1, n2){
   return n1 * n2;
 }
 function divide(n1, n2){
-  n1 / n2;
+  return n1 / n2;
 }
 
 function make_calc(n1, n2, operation){
@@ -16,7 +16,7 @@ function make_calc(n1, n2, operation){
     return add(n1, n2);
   }
   if(operation == "subtract"){
-    subtract(n1, n2);
+    return subtract(n1, n2);
   }
   if(operation == "multiply"){
     return multiply(n1, n2);
@@ -27,16 +27,16 @@ function make_calc(n1, n2, operation){
 }
 
 function init(){
-  var result = 0;
+  let result = 0;
 
-  var sum = make_calc(2, 3, "add")
-  var subs = make_calc(2, 3, "subtract")
-  var mult = make_calc(2, 3, "multiply")
-  var div = make_calc(2, 3, "divide")
+  const sum = make_calc(2, 3, "add")
+  const subs = make_calc(2, 3, "subtract")
+  const mult = make_calc(2, 3, "multiply")
+  const div = make_calc(2, 3, "divide")
 
   result = sum + subs + mult + div;
 
-  console.lg(result);
+  console.log(result);
 }
 
 init();
